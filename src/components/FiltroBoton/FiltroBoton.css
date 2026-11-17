@@ -1,0 +1,16 @@
+.nutricion-filtro-btn {
+  padding: 10px 18px;
+  border: 2px solid var(--sazon-verdeHoja);
+  border-radius: 999px;
+  background-color: var(--sazon-blanco);
+  color: var(--sazon-verdeHondo);
+  font-family: var(--fuente-texto);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nutricion-filtro-btn-activo {
+  background-color: var(--sazon-verdeHondo);
+  color: var(--sazon-blanco);
+}

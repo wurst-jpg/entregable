@@ -1,0 +1,29 @@
+.receta-card {
+  padding: 16px;
+  border: 1px solid var(--sazon-verdeHoja);
+  border-radius: 8px;
+  background-color: var(--sazon-blanco);
+}
+
+.receta-card-nombre {
+  font-size: 1.17rem;
+  margin: 0 0 8px;
+  color: var(--sazon-verdeHondo);
+}
+
+.receta-card-etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.receta-card-etiqueta {
+  padding: 2px 10px;
+  border: 1px solid var(--sazon-verdeHoja);
+  border-radius: 999px;
+  color: var(--sazon-verdeHondo);
+  font-size: 13px;
+}
